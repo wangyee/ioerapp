@@ -1,0 +1,6 @@
+framework module Pods_IOer {
+  umbrella header "Pods-IOer-umbrella.h"
+
+  export *
+  module * { export * }
+}
