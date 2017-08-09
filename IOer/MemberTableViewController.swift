@@ -43,7 +43,7 @@ class MemberTableViewController: UITableViewController {
         self.navigationItem.backBarButtonItem?.tintColor = UIColor.white
         self.navigationController?.hidesNavigationBarHairline = true
         //self.setStatusBarStyle(UIStatusBarStyleContrast)
-        
+        //self.navigationItem.title = "Contacts"
         self.setThemeUsingPrimaryColor(ClearColor(), with: .contrast)
         
         // Uncomment the following line to preserve selection between presentations
