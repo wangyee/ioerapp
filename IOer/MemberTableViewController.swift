@@ -9,8 +9,9 @@
 import UIKit
 import ChameleonFramework
 import CoreData
+import InteractiveSideMenu
 
-class MemberTableViewController: UITableViewController {
+class MemberTableViewController: UITableViewController, SideMenuItemContent {
     
     var profiles = [
         Profile(name: "Eric Yang", gender: "Mr.", office: "Beijing",  mobile: "", nationality: "P.R.China", email: "eric.yang@interone.cn", image: "EricYang", status: true, jobtitle: "GM"),
@@ -37,6 +38,14 @@ class MemberTableViewController: UITableViewController {
     ]
     
     
+    @IBAction func openMenu1(_ sender: Any) {
+        
+         showSideMenu()
+    }
+    
+    @IBAction func openMenu(_ sender: Any) {
+        showSideMenu()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
         self.navigationItem.backBarButtonItem = UIBarButtonItem(title: "", style: .plain, target: nil, action: nil)

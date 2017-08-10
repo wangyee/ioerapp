@@ -25,6 +25,8 @@
 		95B51F721F342A2100070E1D /* DetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95B51F711F342A2100070E1D /* DetailTableViewController.swift */; };
 		95E87E231F363C7700AC0C4C /* EditDetailTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E87E221F363C7700AC0C4C /* EditDetailTableViewController.swift */; };
 		95E87E271F385C6200AC0C4C /* EmployeeDetailTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E87E261F385C6200AC0C4C /* EmployeeDetailTableViewCell.swift */; };
+		95E87E2E1F3B5B5000AC0C4C /* HostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E87E2D1F3B5B5000AC0C4C /* HostViewController.swift */; };
+		95E87E301F3B5C2300AC0C4C /* NavigationMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95E87E2F1F3B5C2300AC0C4C /* NavigationMenuViewController.swift */; };
 		FFF489EDC6A97667E84A5961 /* Pods_IOer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A81E4D4741A5B3CFC1238366 /* Pods_IOer.framework */; };
 /* End PBXBuildFile section */
 
@@ -63,6 +65,8 @@
 		95B51F711F342A2100070E1D /* DetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailTableViewController.swift; sourceTree = "<group>"; };
 		95E87E221F363C7700AC0C4C /* EditDetailTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EditDetailTableViewController.swift; sourceTree = "<group>"; };
 		95E87E261F385C6200AC0C4C /* EmployeeDetailTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmployeeDetailTableViewCell.swift; sourceTree = "<group>"; };
+		95E87E2D1F3B5B5000AC0C4C /* HostViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HostViewController.swift; sourceTree = "<group>"; };
+		95E87E2F1F3B5C2300AC0C4C /* NavigationMenuViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NavigationMenuViewController.swift; sourceTree = "<group>"; };
 		A81E4D4741A5B3CFC1238366 /* Pods_IOer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IOer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -126,6 +130,8 @@
 		95B51F311F319E9500070E1D /* IOer */ = {
 			isa = PBXGroup;
 			children = (
+				95E87E2F1F3B5C2300AC0C4C /* NavigationMenuViewController.swift */,
+				95E87E2D1F3B5B5000AC0C4C /* HostViewController.swift */,
 				95E87E261F385C6200AC0C4C /* EmployeeDetailTableViewCell.swift */,
 				95E87E221F363C7700AC0C4C /* EditDetailTableViewController.swift */,
 				95B51F711F342A2100070E1D /* DetailTableViewController.swift */,
@@ -138,11 +144,11 @@
 				95B51F591F319F3800070E1D /* Profile.swift */,
 				95B51F321F319E9500070E1D /* AppDelegate.swift */,
 				95B51F361F319E9500070E1D /* Main.storyboard */,
-				95B51F3C1F319E9500070E1D /* Assets.xcassets */,
 				95B51F3E1F319E9500070E1D /* LaunchScreen.storyboard */,
 				95B51F651F3300EE00070E1D /* CustomOverlayView.xib */,
-				95B51F411F319E9500070E1D /* Info.plist */,
 				95B51F391F319E9500070E1D /* IOer.xcdatamodeld */,
+				95B51F3C1F319E9500070E1D /* Assets.xcassets */,
+				95B51F411F319E9500070E1D /* Info.plist */,
 			);
 			path = IOer;
 			sourceTree = "<group>";
@@ -316,6 +322,7 @@
 			files = (
 				95B51F6E1F330A4500070E1D /* BackgroundKolodaAnimator.swift in Sources */,
 				95E87E231F363C7700AC0C4C /* EditDetailTableViewController.swift in Sources */,
+				95E87E2E1F3B5B5000AC0C4C /* HostViewController.swift in Sources */,
 				95E87E271F385C6200AC0C4C /* EmployeeDetailTableViewCell.swift in Sources */,
 				95B51F641F32FB0300070E1D /* CustomerKolodaView.swift in Sources */,
 				95B51F621F31DA5000070E1D /* MyKolodaViewController.swift in Sources */,
@@ -326,6 +333,7 @@
 				95B51F331F319E9500070E1D /* AppDelegate.swift in Sources */,
 				95B51F601F31B71B00070E1D /* ProfileTableViewCell.swift in Sources */,
 				95B51F3B1F319E9500070E1D /* IOer.xcdatamodeld in Sources */,
+				95E87E301F3B5C2300AC0C4C /* NavigationMenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

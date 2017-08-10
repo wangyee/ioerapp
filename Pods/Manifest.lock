@@ -2,12 +2,14 @@ PODS:
   - ChameleonFramework/Default (2.1.0)
   - ChameleonFramework/Swift (2.1.0):
     - ChameleonFramework/Default
+  - InteractiveSideMenu (2.0)
   - Koloda (4.1):
     - pop (~> 1.0)
   - pop (1.0.10)
 
 DEPENDENCIES:
   - ChameleonFramework/Swift (from `https://github.com/ViccAlexander/Chameleon.git`)
+  - InteractiveSideMenu
   - Koloda
 
 EXTERNAL SOURCES:
@@ -21,9 +23,10 @@ CHECKOUT OPTIONS:
 
 SPEC CHECKSUMS:
   ChameleonFramework: d21a3cc247abfe5e37609a283a8238b03575cf64
+  InteractiveSideMenu: 337f6d95a3f6543c517a888893531430e18553b3
   Koloda: 6c4fa3ce9a68776a8ef973311e53fdda432799a8
   pop: 82ca6b068ce9278fd350fd9dd09482a0ce9492e6
 
-PODFILE CHECKSUM: 8845b7f7c17c7a65f4f58973e11eef14643ee6ce
+PODFILE CHECKSUM: f7564953e412b76806f9f928c20b0106407a13b1
 
 COCOAPODS: 1.2.1
